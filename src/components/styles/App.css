@@ -1,0 +1,15 @@
+.App{
+  margin:53px 65px;
+  width: 550px;
+  height: 868px;
+  display: grid;
+  background-color: #23252C;
+}
+div.container{
+  display:grid;
+  height:780px;
+  width: 317px;
+  place-self: center;
+  background-color: #1A1B21;
+  border-radius: 10px 10px 10px 10px;
+}

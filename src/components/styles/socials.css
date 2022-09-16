@@ -1,0 +1,10 @@
+div.socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 64px;
+  background-color: #161619;
+  align-self: end;
+  border-radius:0 0 10px 10px;
+}

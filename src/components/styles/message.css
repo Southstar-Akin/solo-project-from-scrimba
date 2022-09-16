@@ -1,0 +1,74 @@
+div.message{
+  display: grid;
+}
+div.contact{
+  display: grid;
+}
+div.ne{
+  display: grid;
+margin: 20px 0px;
+height: 70%;
+text-align: center;
+}
+
+div.ne span:nth-child(1) {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+div.ne span:nth-child(2){
+    color:#F3BF99;
+    font-size:;
+}
+
+div.buts{
+  display:grid;
+  grid-auto-flow: column;
+  margin: 0px 35px 33px 35px;
+  column-gap: 17px;
+  height: 34px;
+}
+div.buts button{
+  background-color: white;
+  color: #1b1b1b;
+  font-weight: 600;
+  border: 0;
+  width: 115px;
+  border-radius: 6px;
+}
+div.buts button:nth-child(1)::before{
+  content: url('./Icon.png');
+  margin-right: 8px;
+}
+div.buts button:nth-child(2){
+  background-color: #5093E2;
+  color: #ffffff;
+  font-weight: 400;
+}
+div.buts button:nth-child(2)::before{
+  content: url('./linkedin.png');
+  position: relative;
+  right: 8px;
+  top: 2px;
+}
+div.jo{
+  display: grid;
+  width: 271px;
+  height: 201px;
+  place-self: center;
+  color: #f5f5f5;
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 27px; 
+  margin-bottom: 54px;
+}
+
+div.jo > :is(div.About, div.Interest) > span:first-child{
+  font-size: 18px;
+  color: f5f5f5;
+  font-weight: bold;
+  display: block;
+}
+div.jo > :is(div.About, div.Interest) > span:last-child{
+  font-size: 12px;
+  font-weight: 400;
+}

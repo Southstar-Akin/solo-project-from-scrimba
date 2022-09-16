@@ -1,0 +1,10 @@
+.intro{
+  display:grid;
+  height: 317px;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+.mypic{
+  width: 317px;
+  height: 317px;
+}
